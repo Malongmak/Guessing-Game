@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guess The Number</h1>
+        <p>We have selected a random number between a lower and upper range. See if you can guess it.</p>
+
+        <div class="form">
+            <label for="lower">Enter Lower Bound:</label>
+            <input type="number" id="lower" class="inputField" />
+            <label for="upper">Enter Upper Bound:</label>
+            <input type="number" id="upper" class="inputField" />
+            <button class="startButton" id="startGame">Start Game</button>
+        </div>
+
+        <div class="guessForm">
+            <label for="guessField">Enter a guess:</label>
+            <input type="number" id="guessField" class="guessField" />
+            <button class="guessSubmit" id="submitguess">Submit Guess</button>
+        </div>
+
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
