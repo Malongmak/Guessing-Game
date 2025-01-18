@@ -18,7 +18,8 @@ This is a simple number guessing game where the user must guess a randomly gener
 - HTML
 - CSS
 - JavaScript
-
+## Screenshot
+![Image](https://github.com/user-attachments/assets/12356d36-18a3-4715-af01-b79770d99132)
 ## How to Run
 1. Clone or download the repository.
 2. Open `index.html` in your browser.
